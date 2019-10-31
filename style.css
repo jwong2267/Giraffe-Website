@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/giraffe-print-mariya-shotina.jpg");
+    /* background:tan; */
+    /* font-size: 50px; */
+    text-align: center;
+    width: 100vw;
+    height: 100%;
+    margin: 0 0 0 0 !important;
+}
+
+#heading{
+    font-size: 5em;
+    font-style: oblique;
+    color: rgb(124, 56, 56);
+    /* width: 100vw;
+    height: 10vw; */
+    background: tan;
+    border: 0.25em solid rgb(83, 21, 21);
+    padding: 1em 1em 1em 1em;
+    margin: auto;
+}
+
+#giraffe{
+    width: 50vw;
+}
+
+#hungry{
+    font-size: 1em;
+}
+
+#navbar{
+    background: tan;
+    font-size: 2em;
+}
+
+#navbar a{
+    text-decoration: none;
+    /* THIS MEANS YOU CANT ALLANCHORS WITHIN THIS TO HAVE DECORATION OF NONE */
+}
+
+#Google{
+    font-size: 2em;
+}
