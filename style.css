@@ -1,5 +1,5 @@
 html, body {
-    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/giraffe-print-mariya-shotina.jpg");
+    /* background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/giraffe-print-mariya-shotina.jpg"); */
     /* background:tan; */
     /* font-size: 50px; */
     text-align: center;
@@ -39,8 +39,10 @@ html, body {
 /* } */ 
 
 .navbar{
-    background: tan !important;
-    font-size: 1em;
+    /* background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/giraffe-print-mariya-shotina.jpg") !important; */
+    background-color: none !important;
+    font-size: 1.4em;
+    text-align: center !important;
 }
 
 
@@ -66,7 +68,12 @@ html, body {
     position: relative;
     text-align: center;
     color: white;
-    top: 50vh;
+    top: 40vh;
+}
+
+#main_content h1{
+    font-family: 'Bebas Neue';
+    font-size: 5em;
 }
 
 .tint{
@@ -74,4 +81,8 @@ html, body {
     width: 100vw;
     height: 100vh;
     background: rgba(70, 31, 31, 0.5)
+}
+
+.bg-none{
+    background: none;
 }
