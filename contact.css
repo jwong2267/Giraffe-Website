@@ -11,3 +11,9 @@ html, body {
     font-size: 1.4em;
     text-align: center !important;
 }
+
+#box{
+    background-color: rgb(83, 21, 21);
+    height: 1%;
+    width: 100%;
+}
