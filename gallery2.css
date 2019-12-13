@@ -1,0 +1,35 @@
+html, body {
+    background-color: white !important;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0 !important;
+}
+
+.navbar{
+    background-color: rgb(181, 245, 236) !important; 
+    font-size: 1.4em;
+    text-align: center !important;
+}
+
+#box{
+    background-image: url(/images/silver.png);
+    height: 1%;
+    width: 100%;
+}
+
+.carousel-item img{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    margin-top: 5vh;
+    border: .2em solid rgb(181, 245, 236);
+}
+
+.carousel-control-prev{
+    background-color: rgb(181, 245, 236);
+}
+
+.carousel-control-next{
+    background-color: rgb(181, 245, 236);
+}

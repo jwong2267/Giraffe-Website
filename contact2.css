@@ -1,5 +1,5 @@
 html, body {
-    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/giraffe-print-mariya-shotina.jpg");
+    background-color: white !important;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -7,13 +7,13 @@ html, body {
 }
 
 .navbar{
-    background-color: tan !important;
+    background-color: rgb(181, 245, 236) !important; 
     font-size: 1.4em;
     text-align: center !important;
 }
 
 #box{
-    background-color: rgb(83, 21, 21);
+    background-image: url(/images/silver.png);
     height: 1%;
     width: 100%;
 }
@@ -25,17 +25,17 @@ html, body {
 }
 
 .card{
-    border: .2em solid rgb(83, 21, 21);
+    border: .2em solid rgb(181, 245, 236);
 }
 
-.buttonbrown{
-    background: rgb(83, 21, 21);
-    border: .1em solid rgb(83, 21, 21);
+.buttonmint{
+    background:rgb(155, 211, 203);
+    border: .1em solid rgb(155, 211, 203);
 }
 
 .tint{
     position: absolute;
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     background: rgba(70, 31, 31, 0.5)
 }
