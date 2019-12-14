@@ -39,3 +39,38 @@ html, body {
     height: 110vh;
     background: rgba(70, 31, 31, 0.5)
 }
+
+@media only screen and (max-height: 1024px) {
+    .tint{
+        height: 120vh;
+    }
+
+@media only screen and (max-width: 414px) {
+    .tint{
+        height: 270vh;
+    }
+
+@media only screen and (max-height: 823px) {
+    .tint{
+        height: 240vh;
+    }
+
+@media only screen and (max-height: 812px) {
+    .tint{
+        height: 225vh;
+    }
+       
+@media only screen and (max-height: 736px) {
+    .tint{
+        height: 270vh;
+    }
+       
+@media only screen and (max-height: 667px) {
+    .tint{
+        height: 275vh;
+    }
+   
+@media only screen and (max-height: 568px) {
+    .tint{
+        height: 300vh;
+    }

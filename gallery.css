@@ -17,6 +17,22 @@ html, body {
     height: 100%;
 }
 
+.carousel-item{
+    height: 100vh;
+}
+
+@media only screen and (max-width: 1024px) {
+.carousel-item img, .carousel-inner, .carousel{
+    margin-top: 13vh;
+    width: 100vw;
+    height: 50vh; 
+}
+
+@media only screen and (max-width: 1024px) {
+.carousel-item img{
+    border: .2em solid rgb(83, 21, 21);
+}
+
 .carousel{
     margin:auto;
 }
@@ -25,4 +41,16 @@ html, body {
     background-color: rgb(83, 21, 21);
     height: 1%;
     width: 100%;
+}
+
+/* .carousel-indicators{
+    height: 50% !important;
+    width: 100%;
+} */
+
+.tint{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(70, 31, 31, 0.5)
 }
