@@ -26,6 +26,27 @@ html, body {
     border: .2em solid rgb(181, 245, 236);
 }
 
+.carousel-control-prev{
+    left: 30%;
+}
+
+.carousel-control-next{
+    right: 30%;
+}
+
+@media only screen and (max-width: 2000px) {
+    .carousel-item img{
+        height: 100vh;
+        width: 50vw; 
+        margin-top: 0vh;
+    }  
+    .carousel-control-prev{
+        left: 20%;
+    }
+    .carousel-control-next{
+        right: 20%;
+    }
+
 @media only screen and (max-width: 1679px) {
     .carousel-item img{
         height: 95vh;
